@@ -1,0 +1,82 @@
+body{
+    background-color: rgba(99, 99, 255, 0.099);
+}
+
+.header{
+    text-align: center;
+}
+
+.header span{
+    font-size: 25px;
+}
+
+.tables{
+    display: flex;
+    margin: 52px 0 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tables #table{
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.47) ;  
+    padding: 50px 20px;
+    margin: 20px;
+    width: 370px;
+    
+}
+
+.tables #table .table-head {
+    text-align: center;
+}
+
+.tables #table .table-head .summary {
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 5px 12px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.tables #table .table-head #colored{
+    background-color: rgba(65, 191, 232, 0.273);
+    color: blue;
+}
+
+.tables #table .table-head .cost {
+    font-size: 50px;
+    margin: 0 0 20px;
+    
+}
+
+.tables #table .table-head .cost span{
+    font-size: 23px;
+}
+
+.tables #table .content{
+    margin: 50px 15px 20px;
+    font-size: 20px;
+}
+
+.tables #table .content i{
+    color: rgba(128, 128, 128, 0.334);
+    font-size: 15px;
+    margin: 10px;
+}
+
+.tables #table .content #green{
+    color: rgb(16, 215, 122);
+}
+
+.tables #table .three{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+
+}
